@@ -4,10 +4,10 @@ This algoritm will act as a proof of concept and will be the first step in a lar
 
 Overview of Steps:
 #### Implement Black-Litterman using 
-* [x] Historical returns 
-* [x] Expected returns from CAPM
-* [x] EWMA (Need volatility of historical returns to calculate the covariance of the historical returns)
-* [] Implement Black-Litterman
+- [x] Historical returns 
+- [x] Expected returns from CAPM
+- [x] EWMA (Need volatility of historical returns to calculate the covariance of the historical returns)
+- [] Implement Black-Litterman
 
 #### Generate scenarios with Monte Carlo (Latin Hypercube)
 
