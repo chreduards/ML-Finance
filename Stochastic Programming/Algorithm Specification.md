@@ -3,13 +3,13 @@ The algoritm will be constructed in steps. The goal is to rebalance an equity po
 This algoritm will act as a proof of concept and will be the first step in a larger implementation.
 
 Overview of Steps:
-#### [] Implement Black Litterman using 
+#### [ ] Implement Black Litterman using 
 * [x] Historical returns 
 * [x] Expected returns from CAPM
 * [x] EWMA (Need volatility of historical returns to calculate the covariance of the historical returns)
 
-#### [] Generate scenarios with Monte Carlo (Latin Hypercube)
+#### [ ] Generate scenarios with Monte Carlo (Latin Hypercube)
 
-#### [] Implement a primal dual solver
+#### [ ] Implement a primal dual solver
 
-#### [] Rebalance the portfolio
+#### [ ] Rebalance the portfolio
