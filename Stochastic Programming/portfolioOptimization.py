@@ -28,6 +28,18 @@ def before_trading_start(context,data):
     sigma, corr, cov = estVolEWMA(logReturns,dt)
     marketCapWeight = np.array(np.ones(len(context.stocks))/len(context.stocks))[np.newaxis].T
     nuCAPM = estExpectedCAPM(cov, context.marketExcessPremium, context.interestRate, marketCapWeight)
+    nu = estExpectedBlackLitterman(nuCAPM, cov*0.1, np.identity(len(context.stocks)), nuHist, cov)
+    
+# Uses the Black-Litterman method to compute expected returns
+# Called by: before_trading_starts
+def estExpectedBlackLitterman(muP, Sigma, P, q, Omega):
+    H = np.linalg.inv(Sigma) + P.T * np.linalg.solve(Omega, P)
+
+    mu = np.linalg.solve(H, np.linalg.solve(Sigma,muP.T) + P.T * np.linalg.solve(Omega, q.T))
+    
+    print(mu)
+    print(muP)
+    print(q)
   
 # Computes the expected returns using CAPM
 # Called by: before_trading_starts
