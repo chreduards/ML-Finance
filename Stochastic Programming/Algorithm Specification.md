@@ -10,7 +10,10 @@ Overview of Steps:
 - [ ] Implement Black-Litterman
 
 #### Generate scenarios with Monte Carlo (Latin Hypercube)
+- [ ] Generate scenarios
 
 #### Implement a primal dual solver
+- [ ] Implement solver
 
 #### Rebalance the portfolio
+- [ ] Rebalance portfolio
