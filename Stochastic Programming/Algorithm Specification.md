@@ -3,7 +3,10 @@ The algoritm will be constructed in steps. The goal is to rebalance an equity po
 This algoritm will act as a proof of concept and will be the first step in a larger implementation.
 
 Overview of Steps:
-#### Implement Black Litterman using historical returns and expected returns from CAPM
+#### Implement Black Litterman using 
+* Historical returns 
+* Expected returns from CAPM
+* EWMA
 
 #### Generate scenarios with Monte Carlo (Latin Hypercube)
 
