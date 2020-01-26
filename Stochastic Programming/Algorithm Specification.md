@@ -6,7 +6,7 @@ Overview of Steps:
 #### Implement Black Litterman using 
 * Historical returns 
 * Expected returns from CAPM
-* EWMA
+* EWMA (Need volatility of historical returns to calculate the covariance of the historical returns)
 
 #### Generate scenarios with Monte Carlo (Latin Hypercube)
 
