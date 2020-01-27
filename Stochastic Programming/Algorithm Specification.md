@@ -9,8 +9,9 @@ Overview of Steps:
 - [x] EWMA (Need volatility of historical returns to calculate the covariance of the historical returns)
 - [x] Implement Black-Litterman
 
-#### Generate scenarios with Monte Carlo (Latin Hypercube)
-- [ ] Generate scenarios
+#### Generate scenarios with Monte Carlo 
+- [ ] Generate values with Latin Hypercube
+- [ ] Generate scenario prices
 
 #### Implement a primal dual solver
 - [ ] Implement solver
