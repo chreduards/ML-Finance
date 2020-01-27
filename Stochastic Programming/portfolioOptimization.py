@@ -107,3 +107,4 @@ def estVolEWMA(logReturns,dt):
     sigma = np.array(np.sqrt(np.diag(cov)))[np.newaxis] 
     corr = np.divide(cov,sigma.T*sigma)
     return sigma, np.matrix(corr), np.matrix(cov)
+
