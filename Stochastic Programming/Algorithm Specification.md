@@ -10,6 +10,7 @@ Overview of Steps:
 - [x] Implement Black-Litterman
 
 #### Generate scenarios with Monte Carlo 
+- [ ] Generate values without variance reduction
 - [ ] Generate values with Latin Hypercube
 - [ ] Generate scenario prices
 
