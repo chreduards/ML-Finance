@@ -12,7 +12,7 @@ Overview of Steps:
 #### Generate scenarios with Monte Carlo 
 - [x] Generate values without variance reduction
 - [ ] Generate values with Latin Hypercube
-- [ ] Generate scenario prices
+- [x] Generate scenario prices
 
 #### Implement a primal dual solver
 - [ ] Implement solver
