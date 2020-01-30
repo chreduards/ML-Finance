@@ -1,4 +1,4 @@
-# Portfolio optimization algoritm
+# Portfolio optimization algorithm
 The algoritm will be constructed in steps. The goal is to rebalance an equity portfolio on a daily basis.
 This algoritm will act as a proof of concept and will be the first step in a larger implementation.
 
